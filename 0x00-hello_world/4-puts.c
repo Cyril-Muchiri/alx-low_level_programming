@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/**
+/*
 * Description: main method - Prints out the string to stdout.
 * Return: 0 if success
 */
