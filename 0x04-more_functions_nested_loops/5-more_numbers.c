@@ -5,18 +5,18 @@
  * Return:void
  */
 
-void more_numbers(void);
+void more_numbers(void)
 {
-	int i;
+	int i=0;
 
-	for (i = 0; i < 10; i++)
+	while(i<10)
 	{
 		int j;
-
 		for (j = 0; j <= 14; j++)
 		{
-			_putchar(j + '0');
+			_putchar(j);
 		}
 		_putchar('\n');
+		i++;
 	}
 }
